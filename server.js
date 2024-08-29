@@ -5,55 +5,41 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Load recipes from JSON file
-const recipesFile = path.join(__dirname, 'recipes.json');
-let recipes = [];
-
-// Function to load recipes from file
-function loadRecipes() {
-    fs.readFile(recipesFile, 'utf8', (err, data) => {
-        if (err) {
-            console.error("Error reading recipes file:", err);
-            return;
-        }
-        try {
-            recipes = JSON.parse(data);
-            console.log('Recipes loaded successfully:', recipes); // Log the loaded recipes
-        } catch (parseErr) {
-            console.error("Error parsing recipes JSON:", parseErr);
-        }
-    });
-}
-
-// Call the function to load recipes
-loadRecipes();
-
-// Route to get recipes by ingredients
-app.get('/get-recipes', (req, res) => {
+app.get('/get-recipes', async (req, res) => {
     const ingredients = req.query.ingredients;
 
-    console.log('Query Parameters:', req.query); // Log the query parameters
-    console.log('Ingredients received:', ingredients); // Log the ingredients received
+    // Log the query parameters and ingredients
+    console.log('Query Parameters:', req.query);
+    console.log('Ingredients received:', ingredients);
 
     if (!ingredients) {
         return res.status(400).json({ error: 'No ingredients provided' });
     }
 
+    // Convert to array if it's not already an array
     const ingredientsArray = Array.isArray(ingredients) ? ingredients : [ingredients];
-    console.log('Ingredients Array:', ingredientsArray); // Log the converted ingredients array
+    console.log('Ingredients Array:', ingredientsArray);
 
-    const filteredRecipes = recipes.filter(recipe =>
-        ingredientsArray.every(ingredient => recipe.ingredients.includes(ingredient))
-    );
+    try {
+        // Fetch recipes from RapidAPI
+        rapidApiOptions.params.ingredients = ingredientsArray.join(',');
+        const response = await axios.request(rapidApiOptions);
 
-    console.log('Filtered Recipes:', filteredRecipes); // Log the filtered recipes
+        const filteredRecipes = response.data; // Adjust based on API response structure
 
-    if (filteredRecipes.length === 0) {
-        return res.status(404).json({ message: 'No recipes found for the provided ingredients' });
+        console.log('Filtered Recipes:', filteredRecipes);
+
+        if (filteredRecipes.length === 0) {
+            return res.status(404).json({ message: 'No recipes found for the provided ingredients' });
+        }
+
+        res.json(filteredRecipes);
+    } catch (error) {
+        console.error("Error fetching recipes from RapidAPI:", error);
+        res.status(500).json({ error: 'An error occurred while fetching recipes' });
     }
-
-    res.json(filteredRecipes);
 });
+
 
 // Start server
 app.listen(port, () => {
