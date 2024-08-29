@@ -14,7 +14,11 @@ fs.readFile(recipesFile, 'utf8', (err, data) => {
         console.error("Error reading recipes file:", err);
         return;
     }
-    recipes = JSON.parse(data);
+    try {
+        recipes = JSON.parse(data);
+    } catch (parseErr) {
+        console.error("Error parsing recipes JSON:", parseErr);
+    }
 });
 
 // Route to get recipes by ingredients
@@ -27,8 +31,12 @@ app.get('/get-recipes', (req, res) => {
 
     const ingredientsArray = Array.isArray(ingredients) ? ingredients : [ingredients];
     const filteredRecipes = recipes.filter(recipe =>
-        recipe.ingredients.every(ingredient => ingredientsArray.includes(ingredient))
+        ingredientsArray.every(ingredient => recipe.ingredients.includes(ingredient))
     );
+
+    if (filteredRecipes.length === 0) {
+        return res.status(404).json({ message: 'No recipes found for the provided ingredients' });
+    }
 
     res.json(filteredRecipes);
 });

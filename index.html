@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        #recipesList {
+            margin-top: 20px;
+        }
+        .recipe-card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+        <form id="recipeForm">
+            <label for="ingredients">Enter Ingredients (comma separated):</label>
+            <input type="text" id="ingredients" placeholder="e.g., chicken, rice, curry powder" required>
+            <button type="submit">Find Recipes</button>
+        </form>
+        <div id="recipesList"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#recipeForm').on('submit', function (e) {
+                e.preventDefault();
+
+                const ingredients = $('#ingredients').val()
+                    .split(',')
+                    .map(ingredient => ingredient.trim().toLowerCase());
+                
+                fetchRecipes(ingredients);
+            });
+
+            function fetchRecipes(ingredients) {
+                const url = `https://food-recipes6.p.rapidapi.com/get-recipes?ingredients=${encodeURIComponent(JSON.stringify(ingredients))}`;
+                
+                const settings = {
+                    async: true,
+                    crossDomain: true,
+                    url: url,
+                    method: 'GET',
+                    headers: {
+                        'x-rapidapi-key': 'e1d1cb98bdmshc78594f3f9e109ep139ee7jsn9cc5d28fb049',
+                        'x-rapidapi-host': 'food-recipes6.p.rapidapi.com',
+                        'X-RapidAPI-Key': 'e1d1cb98bdmshc78594f3f9e109ep139ee7jsn9cc5d28fb049',
+                        'X-RapidAPI-Host': 'food-recipes6.p.rapidapi.com'
+                    }
+                };
+
+                $.ajax(settings).done(function (response) {
+                    displayRecipes(response);
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    console.error('Error fetching recipes:', textStatus, errorThrown);
+                });
+            }
+
+            function displayRecipes(recipes) {
+                const recipesList = $('#recipesList');
+                recipesList.empty();
+
+                if (recipes.length === 0) {
+                    recipesList.append('<p>No recipes found.</p>');
+                    return;
+                }
+
+                recipes.forEach(recipe => {
+                    const recipeCard = $('<div>').addClass('recipe-card');
+
+                    const recipeName = $('<h2>').text(recipe.name);
+                    const recipeIngredients = $('<p>').text(`Ingredients: ${recipe.ingredients.join(', ')}`);
+                    const recipeInstructions = $('<p>').text(`Instructions: ${recipe.instructions}`);
+
+                    recipeCard.append(recipeName, recipeIngredients, recipeInstructions);
+
+                    recipesList.append(recipeCard);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
