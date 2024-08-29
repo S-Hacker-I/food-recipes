@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Spaghetti Carbonara",
+        "ingredients": ["spaghetti", "eggs", "parmesan cheese", "pancetta", "black pepper"],
+        "instructions": "1. Cook spaghetti according to package instructions. 2. Fry pancetta in a pan until crispy. 3. In a bowl, mix eggs and grated parmesan cheese. 4. Drain spaghetti and return to pot. 5. Mix in the pancetta and egg mixture. 6. Season with black pepper and serve."
+    },
+    {
+        "name": "Chicken Stir Fry",
+        "ingredients": ["chicken breast", "bell peppers", "soy sauce", "garlic", "ginger", "broccoli"],
+        "instructions": "1. Slice chicken breast and bell peppers. 2. Heat oil in a pan and stir fry garlic and ginger. 3. Add chicken and cook until browned. 4. Add bell peppers and broccoli. 5. Pour in soy sauce and cook until vegetables are tender. 6. Serve over rice."
+    },
+    {
+        "name": "Beef Tacos",
+        "ingredients": ["ground beef", "taco seasoning", "taco shells", "lettuce", "cheese", "sour cream", "salsa"],
+        "instructions": "1. Cook ground beef in a skillet over medium heat until browned. 2. Drain excess fat and add taco seasoning. 3. Prepare taco shells according to package instructions. 4. Fill each shell with seasoned beef, then top with lettuce, cheese, sour cream, and salsa."
+    },
+    {
+        "name": "Vegetable Soup",
+        "ingredients": ["carrots", "potatoes", "celery", "onions", "tomato paste", "vegetable broth", "herbs"],
+        "instructions": "1. Chop carrots, potatoes, celery, and onions. 2. In a large pot, sauté onions until translucent. 3. Add carrots, potatoes, and celery, and cook for a few minutes. 4. Stir in tomato paste and cook for another minute. 5. Add vegetable broth and herbs. 6. Simmer until vegetables are tender."
+    },
+    {
+        "name": "Chicken Alfredo",
+        "ingredients": ["fettuccine pasta", "chicken breast", "heavy cream", "parmesan cheese", "butter", "garlic"],
+        "instructions": "1. Cook fettuccine according to package instructions. 2. In a skillet, cook chicken until no longer pink. 3. In a separate pan, melt butter and sauté garlic. 4. Add heavy cream and bring to a simmer. 5. Stir in parmesan cheese until melted. 6. Combine chicken and pasta with the sauce and serve."
+    },
+    {
+        "name": "Greek Salad",
+        "ingredients": ["cucumbers", "tomatoes", "red onions", "feta cheese", "olives", "olive oil", "lemon juice", "oregano"],
+        "instructions": "1. Chop cucumbers, tomatoes, and red onions. 2. In a large bowl, combine cucumbers, tomatoes, onions, feta cheese, and olives. 3. In a small bowl, whisk together olive oil, lemon juice, and oregano. 4. Pour dressing over salad and toss to combine."
+    },
+    {
+        "name": "Margherita Pizza",
+        "ingredients": ["pizza dough", "tomato sauce", "mozzarella cheese", "fresh basil", "olive oil"],
+        "instructions": "1. Preheat oven to 475°F (245°C). 2. Roll out pizza dough and place on a pizza stone or baking sheet. 3. Spread tomato sauce evenly over dough. 4. Top with slices of mozzarella cheese. 5. Bake in the oven for 12-15 minutes. 6. Top with fresh basil and a drizzle of olive oil before serving."
+    },
+    {
+        "name": "Quiche Lorraine",
+        "ingredients": ["pie crust", "bacon", "eggs", "heavy cream", "milk", "gruyere cheese", "salt", "pepper"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Cook bacon until crispy and crumble. 3. In a bowl, whisk together eggs, cream, milk, salt, and pepper. 4. Spread bacon and shredded gruyere cheese in the pie crust. 5. Pour egg mixture over bacon and cheese. 6. Bake for 35-40 minutes or until set."
+    },
+    {
+        "name": "Beef Stroganoff",
+        "ingredients": ["beef strips", "onions", "mushrooms", "beef broth", "sour cream", "flour", "butter", "salt", "pepper"],
+        "instructions": "1. In a pan, cook beef strips until browned. 2. Remove beef and cook onions and mushrooms in the same pan. 3. Sprinkle flour over vegetables and stir to combine. 4. Gradually add beef broth, stirring until thickened. 5. Return beef to the pan and stir in sour cream. 6. Simmer until beef is tender and serve over noodles."
+    },
+    {
+        "name": "Pancakes",
+        "ingredients": ["flour", "milk", "eggs", "baking powder", "sugar", "butter", "salt"],
+        "instructions": "1. In a bowl, mix flour, baking powder, sugar, and salt. 2. In another bowl, whisk together milk, eggs, and melted butter. 3. Combine wet and dry ingredients and stir until smooth. 4. Heat a griddle or pan and pour batter to form pancakes. 5. Cook until bubbles form on the surface, then flip and cook until golden brown."
+    },
+    {
+        "name": "Chili Con Carne",
+        "ingredients": ["ground beef", "onions", "garlic", "bell peppers", "tomatoes", "kidney beans", "chili powder", "cumin"],
+        "instructions": "1. Cook ground beef with onions and garlic until browned. 2. Add chopped bell peppers and cook for a few minutes. 3. Stir in chopped tomatoes, kidney beans, chili powder, and cumin. 4. Simmer for 30 minutes, stirring occasionally. 5. Serve hot with your favorite toppings."
+    },
+    {
+        "name": "Caesar Salad",
+        "ingredients": ["romaine lettuce", "parmesan cheese", "croutons", "Caesar dressing", "lemon juice"],
+        "instructions": "1. Tear romaine lettuce into bite-sized pieces. 2. In a large bowl, toss lettuce with Caesar dressing and lemon juice. 3. Top with croutons and grated parmesan cheese. 4. Serve immediately."
+    },
+    {
+        "name": "Lasagna",
+        "ingredients": ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "mozzarella cheese", "parmesan cheese", "egg", "garlic"],
+        "instructions": "1. Cook lasagna noodles according to package instructions. 2. In a pan, cook ground beef with garlic until browned. 3. Add tomato sauce and simmer. 4. In a bowl, mix ricotta cheese with an egg. 5. In a baking dish, layer noodles, meat sauce, and cheese mixture. 6. Top with mozzarella and parmesan cheese. 7. Bake at 375°F (190°C) for 45 minutes."
+    },
+    {
+        "name": "Chicken Curry",
+        "ingredients": ["chicken thighs", "onions", "garlic", "ginger", "curry powder", "coconut milk", "tomatoes", "cilantro"],
+        "instructions": "1. Sauté onions, garlic, and ginger in a pan. 2. Add curry powder and cook for another minute. 3. Add chicken thighs and cook until browned. 4. Stir in coconut milk and chopped tomatoes. 5. Simmer until chicken is cooked through. 6. Garnish with cilantro and serve with rice."
+    },
+    {
+        "name": "Minestrone Soup",
+        "ingredients": ["carrots", "celery", "onions", "potatoes", "tomatoes", "green beans", "pasta", "vegetable broth", "herbs"],
+        "instructions": "1. Chop carrots, celery, onions, and potatoes. 2. Sauté onions in a pot until translucent. 3. Add carrots, celery, and potatoes, and cook for a few minutes. 4. Stir in tomatoes and vegetable broth. 5. Add green beans and pasta. 6. Simmer until vegetables and pasta are tender. 7. Season with herbs."
+    },
+    {
+        "name": "Pasta Primavera",
+        "ingredients": ["pasta", "bell peppers", "zucchini", "cherry tomatoes", "olive oil", "garlic", "parmesan cheese"],
+        "instructions": "1. Cook pasta according to package instructions. 2. Sauté bell peppers, zucchini, and garlic in olive oil. 3. Add cherry tomatoes and cook until tender. 4. Toss vegetables with cooked pasta and grated parmesan cheese. 5. Serve with additional cheese if desired."
+    },
+    {
+        "name": "Beef Wellington",
+        "ingredients": ["beef tenderloin", "puff pastry", "mushrooms", "prosciutto", "egg yolk", "butter"],
+        "instructions": "1. Preheat oven to 400°F (200°C). 2. Sear beef tenderloin in a hot pan until browned. 3. Chop mushrooms and cook in butter until dry. 4. Spread mushrooms over prosciutto slices. 5. Wrap beef in prosciutto and mushrooms, then in puff pastry. 6. Brush with egg yolk and bake for 25-30 minutes."
+    },
+    {
+        "name": "Shrimp Scampi",
+        "ingredients": ["shrimp", "butter", "garlic", "lemon juice", "parsley", "white wine", "pasta"],
+        "instructions": "1. Cook pasta according to package instructions. 2. Melt butter in a pan and sauté garlic. 3. Add shrimp and cook until pink. 4. Stir in white wine and lemon juice. 5. Toss with cooked pasta and chopped parsley. 6. Serve immediately."
+    },
+    {
+        "name": "Baked Ziti",
+        "ingredients": ["ziti pasta", "marinara sauce", "ricotta cheese", "mozzarella cheese", "parmesan cheese", "ground beef", "onions"],
+        "instructions": "1. Cook ziti pasta according to package instructions. 2. In a pan, cook ground beef with onions until browned. 3. Mix beef with marinara sauce. 4. In a baking dish, layer ziti, sauce, and cheese. 5. Bake at 375°F (190°C) for 30 minutes."
+    },
+    {
+        "name": "Lemon Bars",
+        "ingredients": ["flour", "butter", "sugar", "eggs", "lemon juice", "baking powder", "powdered sugar"],
+        "instructions": "1. Preheat oven to 350°F (175°C). 2. Mix flour, butter, and sugar to form the crust. 3. Press into a baking pan and bake for 15 minutes. 4. In a bowl, whisk eggs, sugar, lemon juice, and baking powder. 5. Pour over baked crust and bake for an additional 25 minutes. 6. Cool and dust with powdered sugar."
+    },
+    {
+        "name": "Apple Pie",
+        "ingredients": ["pie crust", "apples", "sugar", "cinnamon", "butter", "flour", "lemon juice"],
+        "instructions": "1. Preheat oven to 425°F (220°C). 2. Slice apples and mix with sugar, cinnamon, flour, and lemon juice. 3. Roll out pie crust and fit into a pie dish. 4. Fill with apple mixture and dot with butter. 5. Cover with top crust, seal edges, and cut vents. 6. Bake for 45-50 minutes until crust is golden."
+    },
+    {
+        "name": "Chicken Parmesan",
+        "ingredients": ["chicken breasts", "breadcrumbs", "egg", "parmesan cheese", "mozzarella cheese", "tomato sauce", "olive oil"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Dredge chicken breasts in egg, then breadcrumbs mixed with parmesan cheese. 3. Fry chicken in olive oil until golden. 4. Place chicken in a baking dish, top with tomato sauce and mozzarella cheese. 5. Bake for 20-25 minutes."
+    },
+    {
+        "name": "Cobb Salad",
+        "ingredients": ["lettuce", "chicken breast", "bacon", "avocado", "eggs", "tomatoes", "blue cheese", "ranch dressing"],
+        "instructions": "1. Cook chicken breast and bacon. 2. Slice chicken and crumble bacon. 3. Arrange lettuce on a plate and top with chicken, bacon, avocado, sliced eggs, tomatoes, and blue cheese. 4. Drizzle with ranch dressing."
+    },
+    {
+        "name": "Beef Tacos",
+        "ingredients": ["ground beef", "taco seasoning", "taco shells", "lettuce", "cheese", "sour cream", "salsa"],
+        "instructions": "1. Cook ground beef in a skillet over medium heat until browned. 2. Drain excess fat and add taco seasoning. 3. Prepare taco shells according to package instructions. 4. Fill each shell with seasoned beef, then top with lettuce, cheese, sour cream, and salsa."
+    },
+    {
+        "name": "Garlic Mashed Potatoes",
+        "ingredients": ["potatoes", "garlic", "butter", "milk", "salt", "pepper"],
+        "instructions": "1. Peel and chop potatoes. 2. Boil potatoes and garlic in salted water until tender. 3. Drain and mash with butter and milk. 4. Season with salt and pepper."
+    },
+    {
+        "name": "French Toast",
+        "ingredients": ["bread", "eggs", "milk", "cinnamon", "vanilla extract", "butter", "maple syrup"],
+        "instructions": "1. Whisk eggs, milk, cinnamon, and vanilla. 2. Dip bread slices in the mixture. 3. Cook in a buttered pan until golden brown. 4. Serve with maple syrup."
+    },
+    {
+        "name": "Pork Chops",
+        "ingredients": ["pork chops", "salt", "pepper", "olive oil", "garlic", "rosemary"],
+        "instructions": "1. Season pork chops with salt and pepper. 2. Heat olive oil in a pan. 3. Sear pork chops until golden brown. 4. Add garlic and rosemary, and cook until pork is cooked through."
+    },
+    {
+        "name": "Chicken Fajitas",
+        "ingredients": ["chicken breasts", "bell peppers", "onions", "fajita seasoning", "tortillas", "lime juice"],
+        "instructions": "1. Slice chicken and vegetables. 2. Cook chicken in a pan with fajita seasoning. 3. Add bell peppers and onions, and cook until tender. 4. Serve with tortillas and a squeeze of lime juice."
+    },
+    {
+        "name": "Buffalo Wings",
+        "ingredients": ["chicken wings", "hot sauce", "butter", "garlic powder", "celery", "blue cheese dressing"],
+        "instructions": "1. Bake or fry chicken wings until crispy. 2. Melt butter and mix with hot sauce and garlic powder. 3. Toss wings in the sauce. 4. Serve with celery and blue cheese dressing."
+    },
+    {
+        "name": "Tomato Basil Soup",
+        "ingredients": ["tomatoes", "onions", "garlic", "basil", "cream", "vegetable broth"],
+        "instructions": "1. Sauté onions and garlic in a pot. 2. Add chopped tomatoes and vegetable broth. 3. Simmer for 20 minutes. 4. Blend soup until smooth, then stir in cream and basil."
+    },
+    {
+        "name": "Chicken Caesar Wraps",
+        "ingredients": ["tortillas", "chicken breast", "romaine lettuce", "Caesar dressing", "parmesan cheese"],
+        "instructions": "1. Cook chicken and slice. 2. In a bowl, toss lettuce with Caesar dressing. 3. Add chicken and parmesan cheese. 4. Wrap in tortillas and serve."
+    },
+    {
+        "name": "Chili",
+        "ingredients": ["ground beef", "kidney beans", "tomatoes", "onions", "chili powder", "cumin", "garlic"],
+        "instructions": "1. Cook ground beef with onions and garlic. 2. Add tomatoes, kidney beans, chili powder, and cumin. 3. Simmer for 30 minutes. 4. Serve with your favorite toppings."
+    },
+    {
+        "name": "Baked Salmon",
+        "ingredients": ["salmon fillets", "lemon", "dill", "garlic", "olive oil", "salt", "pepper"],
+        "instructions": "1. Preheat oven to 400°F (200°C). 2. Place salmon fillets on a baking sheet. 3. Drizzle with olive oil and season with salt, pepper, and dill. 4. Place lemon slices on top. 5. Bake for 15-20 minutes."
+    },
+    {
+        "name": "Stuffed Bell Peppers",
+        "ingredients": ["bell peppers", "ground beef", "rice", "tomato sauce", "onions", "cheese"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Cut tops off bell peppers and remove seeds. 3. Cook ground beef with onions, then mix with cooked rice and tomato sauce. 4. Stuff peppers with mixture and top with cheese. 5. Bake for 30 minutes."
+    },
+    {
+        "name": "Vegetable Stir Fry",
+        "ingredients": ["mixed vegetables", "soy sauce", "ginger", "garlic", "olive oil"],
+        "instructions": "1. Heat oil in a pan and sauté garlic and ginger. 2. Add mixed vegetables and stir fry until tender. 3. Add soy sauce and cook for another minute. 4. Serve with rice."
+    },
+    {
+        "name": "Chocolate Chip Cookies",
+        "ingredients": ["flour", "sugar", "butter", "eggs", "chocolate chips", "vanilla extract", "baking soda"],
+        "instructions": "1. Preheat oven to 350°F (175°C). 2. Cream butter and sugar together. 3. Beat in eggs and vanilla. 4. Gradually add flour and baking soda. 5. Stir in chocolate chips. 6. Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+    },
+    {
+        "name": "Spaghetti Carbonara",
+        "ingredients": ["spaghetti", "bacon", "eggs", "parmesan cheese", "black pepper", "garlic"],
+        "instructions": "1. Cook spaghetti according to package instructions. 2. Cook bacon until crispy. 3. Whisk eggs and parmesan cheese together. 4. Toss spaghetti with bacon and garlic. 5. Remove from heat and stir in egg mixture. 6. Serve with extra parmesan cheese."
+    },
+    {
+        "name": "Greek Salad",
+        "ingredients": ["cucumbers", "tomatoes", "red onion", "feta cheese", "olives", "olive oil", "lemon juice"],
+        "instructions": "1. Chop cucumbers, tomatoes, and red onion. 2. Combine with feta cheese and olives. 3. Drizzle with olive oil and lemon juice. 4. Toss and serve."
+    },
+    {
+        "name": "Pancakes",
+        "ingredients": ["flour", "milk", "eggs", "butter", "baking powder", "sugar"],
+        "instructions": "1. Whisk flour, baking powder, sugar, and milk together. 2. Add eggs and melted butter. 3. Heat a pan and pour batter to form pancakes. 4. Cook until bubbles form, then flip. 5. Serve with maple syrup."
+    },
+    {
+        "name": "Beef Stroganoff",
+        "ingredients": ["beef strips", "mushrooms", "onions", "beef broth", "sour cream", "flour", "butter"],
+        "instructions": "1. Cook beef strips in butter until browned. 2. Remove beef and cook onions and mushrooms in the same pan. 3. Add flour, then beef broth. 4. Return beef to the pan and simmer. 5. Stir in sour cream before serving."
+    },
+    {
+        "name": "Eggplant Parmesan",
+        "ingredients": ["eggplant", "marinara sauce", "mozzarella cheese", "parmesan cheese", "breadcrumbs", "egg"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Slice eggplant and dip in egg, then breadcrumbs. 3. Fry until golden. 4. Layer eggplant slices with marinara sauce and cheeses in a baking dish. 5. Bake for 25-30 minutes."
+    },
+    {
+        "name": "Crispy Chicken Tenders",
+        "ingredients": ["chicken tenders", "flour", "eggs", "breadcrumbs", "salt", "pepper"],
+        "instructions": "1. Preheat oven to 400°F (200°C). 2. Dredge chicken tenders in flour, then egg, and finally breadcrumbs. 3. Bake for 20-25 minutes until crispy."
+    },
+    {
+        "name": "Pesto Pasta",
+        "ingredients": ["pasta", "basil pesto", "parmesan cheese", "pine nuts", "garlic", "olive oil"],
+        "instructions": "1. Cook pasta according to package instructions. 2. Toss with basil pesto and olive oil. 3. Top with parmesan cheese and pine nuts."
+    },
+    {
+        "name": "Lentil Soup",
+        "ingredients": ["lentils", "carrots", "celery", "onions", "vegetable broth", "tomatoes", "garlic"],
+        "instructions": "1. Sauté carrots, celery, onions, and garlic. 2. Add lentils, vegetable broth, and tomatoes. 3. Simmer until lentils are tender. 4. Season with salt and pepper."
+    },
+    {
+        "name": "Tiramisu",
+        "ingredients": ["ladyfingers", "mascarpone cheese", "coffee", "eggs", "sugar", "cocoa powder"],
+        "instructions": "1. Mix mascarpone cheese with egg yolks and sugar. 2. Dip ladyfingers in coffee and layer with mascarpone mixture. 3. Refrigerate for several hours. 4. Dust with cocoa powder before serving."
+    },
+    {
+        "name": "Quiche Lorraine",
+        "ingredients": ["pie crust", "bacon", "eggs", "cream", "gruyere cheese", "onions"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Cook bacon and chop. 3. Whisk eggs with cream. 4. Spread bacon and onions in the pie crust. 5. Pour egg mixture over and top with cheese. 6. Bake for 35-40 minutes."
+    },
+    {
+        "name": "Vegetarian Chili",
+        "ingredients": ["beans", "tomatoes", "bell peppers", "onions", "chili powder", "cumin", "garlic"],
+        "instructions": "1. Sauté onions and garlic. 2. Add beans, tomatoes, bell peppers, and spices. 3. Simmer until vegetables are tender. 4. Serve with your favorite toppings."
+    },
+    {
+        "name": "Chicken Curry",
+        "ingredients": ["chicken", "curry powder", "coconut milk", "onions", "garlic", "ginger", "tomatoes"],
+        "instructions": "1. Cook onions, garlic, and ginger until fragrant. 2. Add chicken and curry powder. 3. Stir in tomatoes and coconut milk. 4. Simmer until chicken is cooked through. 5. Serve with rice."
+    },
+    {
+        "name": "Stuffed Mushrooms",
+        "ingredients": ["mushrooms", "cream cheese", "garlic", "breadcrumbs", "parmesan cheese"],
+        "instructions": "1. Preheat oven to 375°F (190°C). 2. Remove stems from mushrooms. 3. Mix cream cheese, garlic, and breadcrumbs. 4. Stuff mushrooms with mixture and top with parmesan cheese. 5. Bake for 20 minutes."
+    },
+    {
+        "name": "Beef Tacos",
+        "ingredients": ["ground beef", "taco seasoning", "taco shells", "lettuce", "cheese", "sour cream", "salsa"],
+        "instructions": "1. Cook ground beef in a skillet over medium heat until browned. 2. Drain excess fat and add taco seasoning. 3. Prepare taco shells according to package instructions. 4. Fill each shell with seasoned beef, then top with lettuce, cheese, sour cream, and salsa."
+    }
+]
